@@ -32,7 +32,7 @@ for i in range(messages, messages-N, -1):
                 
             pattern = 'Thank you for applying'
             if re.search(pattern,subject):
-                print('\n\n\n----------------------------------\n')
+                print('\n\n\n###########################\n')
                 from_ = msg.get("From")
                 print("\n FROM = {} \n subject = {}".format(from_, subject))
                 body = ""
